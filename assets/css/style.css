@@ -1,0 +1,37 @@
+.navbar {
+    background-color:#373a3c;
+}
+
+.navbar-brand img {
+    width: 3.5rem;
+}
+
+
+
+.contenido{
+    text-align: center;
+}
+
+.iprincipal{
+    padding: 2px;
+    margin: 5px;
+    margin-top: 5rem;
+    width: 30rem;
+    display: inline-block;
+    text-align: center;
+    
+}
+
+.datos{
+    text-align: left;
+    margin: 30px;
+    font-weight: 800;
+    
+
+}
+
+input{
+    width: 50%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
