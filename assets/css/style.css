@@ -1,3 +1,4 @@
+
 .navbar {
     background-color:#373a3c;
 }
@@ -35,3 +36,23 @@ input{
     margin-top: 50px;
     margin-bottom: 20px;
 }
+#resultado {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+
+#modalChartContainer {
+    height: 300px; 
+    max-width: 100%; 
+    overflow: hidden; 
+    margin: 0 auto; 
+  }
+
+  @media (max-width: 576px) {
+    #modalChartContainer {
+      height: 200px; 
+    }
+  }

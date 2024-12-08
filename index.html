@@ -1,33 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
     <!--jquery-->
-    <script src="assets/js/jquery-3.7.1.min.js"></script> 
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
     <!--CSS-->
     <link rel="stylesheet" href="assets/css/style.css">
 
+
     <title>Super Hero</title>
 </head>
+
 <body>
     <!--nav bar-->
     <section id="section-inicial">
         <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
             <div class="container-fluid">
-              <a class="navbar-brand etiqueta-i" href="#">
-                <h2><img src="assets/img/favicon.ico" class="icon" alt=""><i>SuperHero</i></h2>
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
+                <a class="navbar-brand etiqueta-i" href="#">
+                    <h2><img src="assets/img/pow-removebg-preview.png" class="icon" alt=""><i style="color: whitesmoke;">SuperHero</i></h2>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
             </div>
-          </nav>
-        
+        </nav>
+
     </section>
 
     <section>
@@ -49,19 +55,43 @@
             </div>
 
         </div>
-   
-    </section>
-
-    <section id="resultado" >
-
-
+        <br><br>
 
     </section>
 
+    <section id="resultado">
 
-    <div id="chartContainer" style="height: 300px; width: 100%;"></div>
-    <script type="text/javascript" src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>  
+
+
+    </section>
+    <section>
+        <div class="modal fade" id="heroModal" tabindex="-1" aria-labelledby="heroModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="heroModalLabel">Detalle del Superhéroe</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div id="modalContent">
+                        </div>
+                        <div id="modalChartContainer" style="height: 500px; width: 100%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <div id="chartContainer" style="height: 50px; width: 100%;"></div>
+    <script type="text/javascript" src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
     <script type="text/javascript" src="https://cdn.canvasjs.com/jquery.canvasjs.min.js"></script>
-    <script src="assets/js/script.js"></script>
+
+
+
+
 </body>
+<script src="assets/js/script.js"></script>
+
 </html>
